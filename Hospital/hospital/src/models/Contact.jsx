@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../layouts/Button";
-import { Link } from "react-scroll";
 import { Navigate } from "react-router-dom";
 
 const Contact = ({ closeForm }) => {
@@ -19,15 +18,6 @@ const Contact = ({ closeForm }) => {
               name="userEmail"
               id="userEmail"
               placeholder="Your Email"
-            />
-          </div>
-          <div className=" flex flex-col">
-            <input
-              className="py-3 px-2 bg-[#d5f2ec] rounded-lg"
-              type="number"
-              name="userNumber"
-              id="userNumber"
-              placeholder="Phone No."
             />
           </div>
           <div className=" flex flex-col">

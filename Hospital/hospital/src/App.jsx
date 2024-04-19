@@ -1,11 +1,7 @@
-import React from 'react'
-
-
 import MainRoute from './components/Main/MainRoute'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SeniorDoctor from './Senior-Doctor/SeniorDoctor'
-import Patient from './Patient/Patient'
 
 import Login from './components/Login/Login'
 
